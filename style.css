@@ -1,0 +1,94 @@
+body {
+    background-color: rgba(135, 40, 40, 0.866);
+
+}
+
+
+.container-header {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    background-color: rgb(220, 119, 119)
+}
+
+
+.logo {
+    width: 70px;
+    height: 70px;
+    margin-left: 50px;
+    z-index: 0;
+}
+
+.menu {
+    display: flex;
+    justify-content: space-between;
+    width: 50%;
+    height: 50%;
+}
+
+.treslineas {
+    margin-right: 50px;
+}
+
+.button {
+    background-color: rgb(0, 0, 0);
+    width: 90px;
+    height: 60px;
+    border-radius: 40%;
+    border-color: rgb(32, 88, 93);
+    color: rgb(241, 234, 234);
+    margin-left: 2px;
+    z-index: 1;
+}
+
+.contenedor-div {
+    position: relative;
+
+}
+
+.mi-imagen-abajo-derecha {
+    position: absolute;
+    bottom: 30px;
+    right: 10px;
+    align-items: botton;
+    margin-left: 3px;
+
+}
+
+.imagen-container {
+    position: relative;
+    position: absolute;
+    bottom: 95px;
+    margin-left: 200px;
+    z-index: 0;
+}
+
+.biblioteca-contenedor {
+    display: flex;
+    text-align: left;
+    justify-content: flex-end;
+    border-radius: 40%;
+    border-color: rgb(32, 88, 93);
+    margin-bottom: 90px;
+    margin-right: 300px;
+}
+
+
+.player {
+    align-items: flex-end;
+    top: 3px;
+    bottom: 5px;
+    margin: 75px;;
+    margin-left: 955px;
+}
+
+.container {
+    position: relative;
+}
+
+.boton {
+    position: absolute;
+    bottom: 25px;
+    left: 50%;
+    transform: translateX(-50%);
+}
